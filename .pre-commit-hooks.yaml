@@ -1,0 +1,6 @@
+- id: php-debug-vardump
+  name: var_dump check
+  description: Check all PHP staged files for var_dump
+  entry: pre_commit_hooks/php-debug-vardump.sh
+  language: script
+  files: \.php$
